@@ -476,12 +476,6 @@ textarea::-webkit-input-placeholder {
   opacity: .5;
 }
 
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  color: inherit;
-  opacity: .5;
-}
-
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
   color: inherit;
@@ -6725,7 +6719,6 @@ article {
   header,
   .position {
     -webkit-column-break-inside: avoid;
-       -moz-column-break-inside: avoid;
             break-inside: avoid;
   }
 
